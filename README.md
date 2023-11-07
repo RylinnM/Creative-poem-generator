@@ -19,7 +19,7 @@ Google Drive folder: '/content/drive/MyDrive/'
 
 
 ## GENERATING POEM:
-after having generated/uploaded a model, you can run the generate poems code blocks. 
+After having generated/uploaded a model, you can run the generate poems code blocks. 
 The first code block is to load in the model. 
 The second code block contains some text which the user can input. The generated poem will be influenced by this text.
 The third code block will run the model which generates the poem.
