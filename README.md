@@ -6,9 +6,9 @@ By Lin He, Lily Kientz, Ruilin Ma
 
 
 ## SETTING UP:
-To set up the Poem-generator you first have to upload the 'finalCC.ipynb' to google colab.
-Next, you have to put the 'kaggle_poem_dataset.csv' dataset in the following Google Drive folder: '/content/drive/MyDrive/'
-Open 'finalCC.ipynb' in Google Colab and make sure you are connected with a GPU instead of a CPU.
+To set up the Poem-generator you first have to upload the 'finalCC.ipynb' which is in the code directory to Google Colab.
+Next, you have to put the 'kaggle_poem_dataset.csv' dataset in the Dataset and checkpoint directory to the following Google Drive folder: '/content/drive/MyDrive/'
+Open 'finalCC.ipynb' in Google Colab and make sure you are connected with a GPU instead of a CPU. 
 Run the topmost code block to install and import the correct packages, then run the class and definition code blocks. 
 
 
@@ -26,5 +26,7 @@ The third code block will run the model which generates the poem.
 
 It is recommended to follow the same format as we did if you want to try some new poem topics, for example, "The most adj. poem about noun. is written as follows:".
 
-Note: The generator can only generate poems in text form. Our production is further fed into LLM models and other AI tools to generate the painting form, the emoji form, and its voiceover. This part is not included in this generator, but can be easily done with available tools. For reference, the painting is created with DALLE3, the emojis are produced by ChatGPT with special prompts, and the Voiceover is produced with naturalreaders.com.
+*Note 1: The generator can only generate poems in text form. Our production is further fed into LLM models and other AI tools to generate the painting form, the emoji form, and its voiceover. This part is not included in this generator, but can be easily done with available tools. For reference, the painting is created with DALLE3, the emojis are produced by ChatGPT with special prompts, and the Voiceover is produced with naturalreaders.com.*
+
+*Note 2: The checkpoint file is too big to be uploaded to the repo. If needed, please contact the author(s).*
 
